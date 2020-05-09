@@ -17,7 +17,7 @@ function Home() {
                     <li>Resume</li>
                 </ul>
             </div>
-            <disv className="home-picture">
+            <div className="home-picture">
 
             </div>
         </div>

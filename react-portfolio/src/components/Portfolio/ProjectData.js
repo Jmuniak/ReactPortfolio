@@ -13,6 +13,8 @@ const projectData = [
         url: 'https://warm-dusk-48851.herokuapp.com/',
         img: './../../assets/images/Valhalla.png',
         description: 'This was the second group project of the Full Stack Coding Bootcamp.',
-        builtWith: ['VS Code', 'Node.js', 'AWS', 'Passport', 'Bootstrap', 'NPM EJS', 'NPM express', 'NPM sequelize',' NPM mysql2']
+        builtWith: ['VS Code', 'Node.js', 'AWS', 'Passport', 'Bootstrap', 'NPM EJS', 'NPM express', 'NPM sequelize', 'NPM mysql2']
     }
-]
+];
+
+export default projectData;
