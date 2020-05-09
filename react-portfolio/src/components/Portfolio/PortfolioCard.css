@@ -1,0 +1,8 @@
+
+.image {
+    height: 400px;
+    width: 400px;
+    border: solid 10px black;
+    background: cover;
+}
+

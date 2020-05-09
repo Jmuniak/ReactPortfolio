@@ -14,17 +14,22 @@ function PortfolioCard(props) {
         builtList.push(<li key={ele.id}>{ele}</li>);
     });
     console.log(builtList);
+
+
+
     return (
         <div className="portfolio-card">
             <h3>{props.name}</h3>
-            <img href={props.img} />
-            <p>{props.url}</p>
             <p>{props.description}</p>
+            <a href={props.url} target="blank">{props.url}</a>
+
+        {/* not working */}
+            {/* <div className="image" style={{backgroundImage: `url(${require("./../../assets/images/stayAlive.png")})`}}>Î </div> */}
             <p>Built With: </p>
             <ul id="builtWithUL">
                 {builtList}
             </ul>
-        </div>
+        </div >
     )
 };
 

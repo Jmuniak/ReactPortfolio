@@ -3,6 +3,10 @@
     background-color: aqua;
 }
 
+/* .projects {
+    display: block;
+} */
+
 /* .proj-gal-item {
     width: 500px;
     height: 500px;
@@ -14,13 +18,14 @@
 }
 
 
-.project-div {
+
+/* .project-div {
     background-image: url(./../../assets/images/400x400.png);
     width: 400px;
     height: 400px;
     background-size: cover;
     margin: 10px;
-}
+} */
 
 .project-stayAlive {
     background-image: url(./../../assets/images/stayAlive.png);
@@ -28,4 +33,4 @@
     height: 400px;
     background-size: cover;
     margin: 10px;
-} */
+} 

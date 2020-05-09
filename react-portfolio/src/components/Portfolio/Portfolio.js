@@ -5,7 +5,7 @@ import projectData from './ProjectData';
 
 
 function Portfolio() {
-    const projectComponents = projectData.map(project => <PortfolioCard key={project.id} name={project.name} builtWith={project.builtWith}/>)
+    const projectComponents = projectData.map(project => <PortfolioCard key={project.id} name={project.name} img={project.img} url={project.url} description={project.description} builtWith={project.builtWith}/>)
 
     return (
         <div className="portfolio-section">
@@ -17,6 +17,7 @@ function Portfolio() {
               <div>
               {projectComponents}
               </div>
+              {/* <div className="project-stayAlive"></div> */}
             </div>
         
         
