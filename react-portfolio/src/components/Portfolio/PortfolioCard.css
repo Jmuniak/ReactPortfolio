@@ -1,8 +1,24 @@
+.portfolio-card {
+    display: flex;
+    flex-direction: row;
+}
 
 .image {
     height: 400px;
     width: 400px;
     border: solid 10px black;
-    background: cover;
+    background-size: cover;
 }
 
+#stayAlive {
+    background-image: url(./../../assets/images/StayAlive.png);
+    background-size: cover;
+    justify-items: center;
+}
+
+#valhalla {
+    background-image: url(./../../assets/images/Valhalla.png);
+    background-size: cover;
+    justify-content: center;
+
+}
